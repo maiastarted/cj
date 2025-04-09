@@ -1,0 +1,160 @@
+html {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #ffffff !important;
+  height: 100% !important;
+  font-size: 0.9rem;
+}
+
+body {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1rem;
+}
+
+.main {
+  background-color: #ffffff;
+}
+
+.login {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login h1 {
+  text-align: center;
+  font-size: 300%;
+  color: hsl(191, 100%, 25%);
+}
+.login input {
+  font-size: 0.9rem;
+  outline: none;
+  background-color: rgba(168, 243, 234, 0.45);
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 0;
+  border-bottom: 0.125rem solid hsl(191, 100%, 25%);
+  border-left: 0.125rem solid hsl(191, 100%, 25%);
+  border-right: 0.125rem solid hsl(191, 100%, 25%);
+  border-radius: 0.5rem;
+}
+.login input[type=submit] {
+  background-color: rgb(0, 103, 126);
+  color: #fff;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+  padding: 0.5rem;
+  border: 0.125rem solid rgb(0, 103, 126);
+}
+.login input[type=submit]:hover {
+  border: 0.125rem solid rgb(0, 103, 126);
+  background-color: #fff;
+  color: rgb(0, 103, 126);
+}
+
+/*.quadro {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.quadro .quadro1 {
+  display: inline-block;
+      margin: 10px;
+}*/
+
+.quadro {
+  text-align: center;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* espaço entre os botões */
+  flex-wrap: wrap; /* opcional para responsividade */
+  margin-top: 20px;
+    background-color: rgb(0, 103, 126);
+  color: #fff;
+
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(0, 103, 126);
+  color: #fff;
+  cursor: pointer;
+  border: 0.125rem solid rgb(0, 103, 126);
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+}
+
+.quadro1 {
+  display: flex;
+  align-items: center;
+}
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(0, 103, 126);
+  color: #fff;
+  cursor: pointer;
+  border: 0.125rem solid rgb(0, 103, 126);
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+}
+button:active, button:hover {
+  border: 0.125rem solid rgb(0, 103, 126);
+  background-color: #fff;
+  color: rgb(0, 103, 126);
+}
+
+a {
+  text-decoration: none;
+}
+
+.font_bold {
+  font-weight: bold;
+  font-size: 2vw;
+}
+
+.logo {
+  text-align: center;
+  width: 5%;
+  height: 5%;
+  object-fit: contain;
+  object-position: bottom;
+  min-width: 50px;
+}
+
+.div_centro {
+  text-align: center;
+}
+
+.projeto .box-galeria {
+  /* border: calc(1px + 0.1vw) solid red; */
+  width: 40%;
+  height: 70%;
+  position: relative;
+  /* margin: 10%; */
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 2%;
+  text-align: justify;
+}
+
+/* background-color: #011210; */
+.descricao {
+  /* border: calc(1px + 0.1vw) solid red; */
+  width: 40%;
+  height: 70%;
+  /* margin: 10%; */
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 2%;
+  text-align: justify;
+}
+
+/*# sourceMappingURL=Logar.css.map */

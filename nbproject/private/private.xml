@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/var/www/cj/Painel/Views/Maquinas/index.php</file>
+            <file>file:/var/www/cj/Painel/Views/Maquinas/Maquinas.php</file>
+            <file>file:/var/www/cj/Painel/Conf/Conn/Funcoes.class.php</file>
+            <file>file:/var/www/cj/Painel/Views/Maquinas/Maquina.php</file>
+            <file>file:/var/www/cj/Painel/Conf/Config.inc.php</file>
+            <file>file:/var/www/cj/Painel/Conf/Modelos/Admin_Maquinas.class.php</file>
+            <file>file:/var/www/cj/Painel/Conf/Modelos/Select.class.php</file>
+            <file>file:/var/www/cj/Painel/Views/Categorias/Index_tabela.php</file>
+        </group>
+    </open-files>
+</project-private>

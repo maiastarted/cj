@@ -1,0 +1,28 @@
+Array
+(
+    [id_questao] => 25
+    [pagina] => cilindro
+    [id_projeto] => 63
+    [dia] => 2025-12-10 10:10:00
+    [id_usuario] => 1
+    [data] => 2025-12-12 18:52:00
+    [posicao] => 14
+    [camada] => 15
+    [profundidade] => 17
+    [espessuraDaCamada] => 18
+    [cilindoMaisSoloUmido] => 19
+    [massaDoCilindro] => 20
+    [massaDoSoloUmido] => 21
+    [volumeDoCilindro] => 22
+    [umidadeDeCampo] => 23
+    [densidadeUmidaDoCampo] => 24
+    [densidadeSecaDoCampo] => 25
+    [densidadeMaxSecaDeLab] => 270
+    [grauDeCompactacao] => 272
+    [UmidadeOtima] => 275
+    [statusDoEnsaio] => true
+    [desvioDeUmidade] => 280
+    [Longitude] => 290
+    [Latitude] => 295
+    [SendPostForm] => Gravar
+)

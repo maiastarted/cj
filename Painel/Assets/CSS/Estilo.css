@@ -1,0 +1,293 @@
+html {
+    height: 100% !important;
+    width: 100% !important;
+    font-size: 0.9rem;
+}
+
+body {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 1rem;
+}
+
+.main input {
+    font-size: 0.9rem;
+    outline: none;
+    background-color: #ffffff;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    border-top: 0;
+    border-bottom: 0.125rem solid hsl(191, 100%, 25%);
+    border-left: 0.125rem solid hsl(191, 100%, 25%);
+    border-right: 0.125rem solid hsl(191, 100%, 25%);
+    border-radius: 0.5rem;
+}
+.main input[type=submit] {
+    background-color: rgb(0, 103, 126);
+    color: #fff;
+    cursor: pointer;
+    margin-top: 0.5rem auto;
+    display: block;
+    border: 0.125rem solid rgb(0, 103, 126);
+    padding: 0.5rem;
+}
+.main input[type=submit]:hover {
+    border: 0.125rem solid rgb(0, 103, 126);
+    background-color: #fff;
+    color: rgb(0, 103, 126);
+}
+
+hr {
+    border-top: 0.25rem solid hsl(191, 100%, 25%);
+    text-align: center;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+    color: hsl(191, 100%, 25%);
+}
+
+h2 {
+    text-align: center;
+    font-size: 200%;
+    color: hsl(191, 100%, 25%);
+}
+
+.div_centro {
+    text-align: center;
+}
+
+label {
+    text-align: center;
+    width: 50%;
+    border-radius: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(168, 243, 234, 0.45);
+}
+
+.font_bold {
+    font-weight: bold;
+}
+
+.div_centro {
+    text-align: center;
+    padding: 0;
+    margin-top: 0;
+    width: 3.125rem;
+}
+
+.logo {
+    text-align: center;
+    object-fit: contain;
+    margin-left: 0.25rem;
+    width: 2rem;
+    object-position: top;
+    min-width: 10px;
+}
+
+.quadro {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.quadro .quadro1 {
+    padding: 0.5rem;
+    margin: 0.125rem;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+.quadro .quadro1:hover {
+    background-color: #e0e0e0;
+}
+
+.button {
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    background-color: rgb(0, 103, 126);
+    color: #fff;
+    cursor: pointer;
+    border: 0.125rem solid #fff;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+.button:active, .button:hover {
+    border: 0.125rem solid rgb(0, 103, 126);
+    background-color: #fff;
+    color: rgb(0, 103, 126);
+}
+
+.button1 {
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    background-color: rgb(0, 103, 126);
+    color: #fff;
+    cursor: pointer;
+    border: 0.125rem solid #fff;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+.button1:active, .button1:hover {
+    border: 0.125rem solid rgb(0, 103, 126);
+    background-color: #fff;
+    color: rgb(0, 103, 126);
+}
+
+.button2 {
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    background-color: rgb(0, 103, 126);
+    color: #fff;
+    /*    cursor: pointer;*/
+    border: 0.125rem solid #fff;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+.button2:active, .button1:hover {
+    /*  border: 0.125rem solid #fff;
+      background-color: rgb(0, 103, 126);
+      color: #fff;*/
+}
+.limpa{
+}
+.botao {
+    margin: 0;
+    display: block;
+    background-color: rgb(0, 103, 126);
+    color: #fff;
+    cursor: pointer;
+    border: 0.125rem solid #fff;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 30px;
+    text-decoration: none;
+}
+.botao:active, .botao:hover {
+    border: 0.125rem solid rgb(0, 103, 126);
+    background-color: #fff;
+    color: rgb(0, 103, 126);
+}
+
+.container0 {
+    display: flex;
+    height: 20vh;
+}
+
+
+a.limpa {
+    color: #fff !important;
+    background-color: rgb(0, 103, 126);
+    border: 0.125rem solid #fff;
+    border-radius: 0.5rem;
+    margin-bottom: 3px;
+    font-weight: normal !important;
+    padding: 7px !important;
+    font-size: 0.9rem;
+}
+
+a.limpa:hover,
+a.limpa:active,
+a.limpa:focus {
+    outline: none;
+    text-decoration: none;
+    color: rgb(0, 103, 126) !important;
+    background-color: #fff !important;
+    border: 0.125rem solid rgb(0, 103, 126);
+}
+a.limpa1 {
+    text-decoration: none;
+}
+
+a.limpa1:hover,
+a.limpa1:active,
+a.limpa1:focus {
+    outline: none;
+    text-decoration: none;
+    /*    color: rgb(0, 103, 126) !important;*/
+    /*background-color: #e2f8e3 !important;*/
+    /*border: 0.125rem solid rgb(0, 103, 126);*/
+}
+
+.centralizar{
+    text-align: center;
+}
+
+
+.quadro_lista-principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Ou center, space-around, space-between */
+}
+.quadro_lista {
+    border: 1px solid red;
+
+}
+
+.quadro_lista>div {
+    width: calc(33.33% - 20px); /* Ajuste a largura e a margem */
+    margin: 10px;
+    border: 1px solid red; /* Apenas para visualização */
+    box-sizing: border-box;
+    text-align: center; /* Opcional */
+}
+
+#imagem-modal {
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    z-index: 1050;
+}
+
+/* Ou usando Flexbox para o modal-body */
+.modal-body-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#M_Imagem {
+    z-index: 1051;
+}
+
+
+.imagem-arredondada {
+    /*width: 300px;  Ajuste conforme necessário */
+    display: inline-block;
+
+    vertical-align: middle;
+    height: auto;
+    border-radius: 10px; /* Controla o arredondamento */
+    border: 2px solid #3498db; /* Define a borda */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Adiciona um efeito de sombra */
+}
+
+
+.imagem-arredondada2 {
+    /*width: 300px;  Ajuste conforme necessário */
+    display: inline-block;
+
+    vertical-align: middle;
+    height: auto;
+    border-radius: 20px; /* Controla o arredondamento */
+    border: 2px solid #3498db; /* Define a borda */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Adiciona um efeito de sombra */
+}
+
+
+
+/*# sourceMappingURL=Estilo.css.map */

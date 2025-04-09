@@ -1,0 +1,325 @@
+:root {
+    --Preta        : #000;
+    --Branco       : #fff;
+    --Laranja      : #f8eee3;
+    --Azul         : #00a7d0;
+    --Azul_Claro   : #5fefdf;
+    --Azul_Escuro  : rgb(0, 103, 126);
+    --Azul_Escuro1 : hsl(191, 100%, 25%);
+    --Verde        : #e2f8e3;
+    --Lilas        : #624ea9;
+    --Lilas_3      : hsl(276, 32%, 89%);
+    --Vermelho     : #ff0000;
+    --Cinza_Claro  : #8d8d8d;
+    --Cinza_Escuro : #424242;
+    --Fundo        : #fff;
+    --Fonte        : 1.2vw;
+    /* igual a 14 */
+    --Tamanho      : 1vw;
+}
+
+
+html {
+    background-color : var(--Fundo) !important;
+}
+
+body {
+    font-family : "PT Sans Narrow", sans-serif;
+    font-size   : calc(var(--Fonte) + 0.5vw);
+}
+
+.main {
+    background-color : var(--Fundo);
+}
+
+.login {
+    display      : block;
+    margin-left  : auto;
+    margin-right : auto;
+    /* background-color: var(--Cinza_Claro); */
+}
+
+.login h1 {
+    text-align     : center;
+    font-size      : 4vw;
+    color          : var(--Azul_Escuro1);
+    padding-bottom : 10% x;
+}
+
+.login input {
+    /* padding: .6% 0.1%; */
+    outline       : none;
+    background    : transparent;
+    text-align    : center;
+    display       : block;
+    margin-left   : auto;
+    margin-right  : auto;
+    border-top    : 0;
+    border-bottom : 0.2vw solid var(--Azul_Escuro1);
+    border-left   : 0.2vw solid var(--Azul_Escuro1);
+    border-right  : 0.2vw solid var(--Azul_Escuro1);
+}
+
+.login input[type="submit"] {
+    background-color : var(--Azul_Escuro);
+    color            : var(--Azul_Claro);
+    cursor           : pointer;
+    margin           : 0 auto;
+    display          : block;
+}
+
+.login input[type="submit"]:hover {
+    border           : 0.2vw solid var(--Azul_Escuro);
+    background-color : var(--Azul_Claro);
+    color            : var(--Azul_Escuro);
+}
+
+.quadro {
+    margin-left  : 15%;
+    text-align   : center;
+    display      : block;
+    margin-left  : auto;
+    margin-right : auto;
+}
+
+.quadro1 {
+    display : inline-block;
+}
+
+.button {
+    display          : block;
+    margin-left      : auto;
+    margin-right     : auto;
+    background-color : var(--Azul_Escuro);
+    color            : var(--Azul_Claro);
+    cursor           : pointer;
+    display          : block;
+}
+
+a {
+    text-decoration : none;
+}
+
+.button:hover,
+.button:active,
+.button.hover {
+    border           : 0.2vw solid var(--Azul_Escuro);
+    background-color : var(--Azul_Claro);
+    color            : var(--Azul_Escuro);
+}
+
+.font_bold {
+    font-weight : bold;
+    font-size   : 2vw;
+}
+
+
+.descricao {
+    /* border: calc(1px + 0.1vw) solid red; */
+    width        : 40%;
+    height       : 70%;
+    /* margin: 10%; */
+    margin-right : 10%;
+    margin-left  : 10%;
+    margin-top   : 2%;
+    text-align   : justify;
+}
+
+.projeto .box-galeria {
+    /* border: calc(1px + 0.1vw) solid red; */
+    width        : 40%;
+    height       : 70%;
+    position     : relative;
+    /* margin: 10%; */
+    margin-right : 50px;
+    margin-left  : 50px;
+    margin-top   : 2%;
+    text-align   : justify;
+    /* background-color: #011210; */
+}
+
+/* ------------------------------AKY---------------------------------- */
+/* @media (max-width: 380px) {
+    .login {
+        width: 65%;
+        margin-top: 3%;
+        height: 2%;
+    }
+
+    .login h1 {
+        font-size: calc(var(--Fonte) * 5);
+        padding-bottom: 10%x;
+    }
+
+    .login input {
+        font-size: calc(var(--Fonte) * 4);
+        border-radius: calc(var(--Tamanho) * 2);
+    }
+
+    .login input[type="submit"] {
+        border-radius: calc(var(--Tamanho) * 2);
+        border: calc(var(--Tamanho) * 0.25) solid var(--Azul_Escuro1);
+        padding: calc(var(--Tamanho) * 2);
+    }
+
+    .login input[type="submit"]:hover {
+        border: calc(var(--Tamanho) * 0.25) solid var(--Azul_Escuro);
+    }
+
+    .button {
+        font-size: calc(var(--Fonte) * 2.7);
+        border-radius: calc(var(--Tamanho) * 2);
+        border: calc(var(--Tamanho) * 0.25) solid var(--Azul_Escuro1);
+        padding: calc(var(--Tamanho) * 2);
+    }
+
+    .button:hover,
+    .button:active,
+    .button.hover {
+        border: calc(var(--Tamanho) * 0.25) solid var(--Azul_Escuro1);
+        background-color: var(--Azul_Claro);
+        color: var(--Azul_Escuro);
+    }
+}
+ */
+/* -------------------------------------------------------------------- */
+/* @media (min-width: 381px) and (max-width: 480px) {
+    .body {
+        background-color: #bcdaa2;
+    }
+
+    .button {
+        font-size: calc(var(--Fonte) * 4);
+    }
+} */
+
+/* -------------------------------------------------------------------- */
+/* @media (min-width: 481px) and (max-width: 576px) {
+    body {
+        background-color: #bcdaa2;
+    }
+
+    .button {
+        font-size: calc(var(--Fonte) * 2.1);
+    }
+} */
+
+/* -------------------------------------------------------------------- */
+/* @media (min-width: 577px) and (max-width: 601px) {
+    .login input {
+        font-size: 2vw;
+    }
+
+    .button {
+        font-size: calc(var(--Fonte) * 2.05);
+    }
+} */
+
+/* ------------------------------------AKY----------------------------- */
+/* @media (min-width: 602px) and (max-width: 768px) {
+    .login {
+        margin-top: 3%;
+        height: 2%;
+    }
+
+    .login h1 {
+        font-size: calc(var(--Fonte) * 3);
+        padding-bottom: 10%x;
+    }
+
+    .login input {
+        font-size: calc(var(--Fonte) * 2);
+        border-radius: calc(var(--Tamanho) * 1);
+    }
+
+    .login input[type="submit"] {
+        border-radius: calc(var(--Tamanho) * 0.5);
+        border: calc(var(--Tamanho) * 0.25) solid var(--Azul_Escuro1);
+        padding: calc(var(--Tamanho) * 1);
+    }
+
+    .login input[type="submit"]:hover {
+        border: calc(var(--Tamanho) * 0.25) solid var(--Azul_Escuro);
+    }
+
+    .button {
+        font-size: calc(var(--Fonte) * 1.7);
+        border-radius: calc(var(--Tamanho) * 0.5);
+        border: calc(var(--Tamanho) * 0.25) solid var(--Azul_Escuro1);
+        padding: calc(var(--Tamanho) * 1);
+    }
+
+    .button:hover,
+    .button:active,
+    .button.hover {
+        border: calc(var(--Tamanho) * 0.25) solid var(--Azul_Escuro1);
+        background-color: var(--Azul_Claro);
+        color: var(--Azul_Escuro);
+    }
+}
+ */
+/* -------------------------------------------------------------------- */
+/* @media (min-width: 769px) and (max-width: 992px) {
+    .button {
+        font-size: calc(var(--Fonte) * 1.6);
+    }
+} */
+
+/* -------------------------------------------------------------------- */
+/* @media (min-width: 993px) and (max-width: 1200px) {
+    .button {
+        font-size: calc(var(--Fonte) * 1.3);
+    }
+} */
+
+/* -------------------------------------------------------------------- */
+/* @media (min-width: 1201px) and (max-width: 1400px) {
+    .login {
+        width: 65%;
+        margin-top: 3%;
+        height: 2%;
+    }
+
+    .login input {
+        font-size: calc(var(--Fonte) * 1.1);
+        border-radius: calc(var(--Tamanho) * 0.5);
+    }
+
+    .login input[type="submit"] {
+        border-radius: calc(var(--Tamanho) * 0.5);
+        border: calc(var(--Tamanho) * 0.25) solid var(--Azul_Escuro1);
+        padding: calc(var(--Tamanho) * 0.25);
+    }
+
+    .login input[type="submit"]:hover {
+        border: calc(var(--Tamanho) * 0.25) solid var(--Azul_Escuro);
+    }
+
+    .button {
+        font-size: calc(var(--Fonte) * 1.1);
+        border-radius: calc(var(--Tamanho) * 0.5);
+        border: calc(var(--Tamanho) * 0.25) solid var(--Azul_Escuro1);
+        padding: calc(var(--Tamanho) * 0.5);
+    }
+
+    .button:hover,
+    .button:active,
+    .button.hover {
+        border: calc(var(--Tamanho) * 0.25) solid var(--Azul_Escuro1);
+        background-color: var(--Azul_Claro);
+        color: var(--Azul_Escuro);
+    }
+}
+ */
+/* -------------------------------------------------------------------- */
+/* @media (min-width: 1401px) {   
+    .login {
+        width: 65%;   
+        margin-top: 5%;   
+        height: 2%;
+    }
+
+    .button {
+        font-size: calc(var(--Fonte) * 1);
+    }
+} */
